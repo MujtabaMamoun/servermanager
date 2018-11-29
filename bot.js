@@ -152,7 +152,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/pJN6D6 :scroll:
          :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
    message.author.sendEmbed(embed)
    
@@ -164,8 +164,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/pJN6D6 :scroll:`)
    message.author.sendEmbed(embed)
    
    }
@@ -176,8 +175,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/pJN6D6 :scroll: **`)
    message.author.sendEmbed(embed)
    
    }
@@ -188,8 +186,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/pJN6D6 :scroll: **`)
    message.author.sendEmbed(embed)
    
    }
@@ -401,7 +398,7 @@ client.on('message', message => {
       if (message.content === "-help-a") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
+           .setFooter('By *xRq_#7339  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -413,7 +410,7 @@ client.on('message', message => {
       if (message.content === "-help-g") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
+           .setFooter('By *xRq_#7339  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -425,7 +422,7 @@ client.on('message', message => {
       if (message.content === "-help-m") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
+           .setFooter('By *xRq_#7339  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -437,7 +434,7 @@ client.on('message', message => {
       if (message.content === "-help-p") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
+           .setFooter('By *xRq_#7339  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -863,7 +860,7 @@ console.log('[38ab] Send By: ' + message.author.username)
 client.on('message', ra3d => {
 var prefix = "-";
                         let args = ra3d.content.split(" ").slice(1).join(" ")
-if(ra3d.content.startsWith(prefix + 'ccolors')) {
+if(ra3d.content.startsWith(prefix + 'colors')) {
     if(!args) return ra3d.channel.send('`يرجي اختيار كم لون `');
              if (!ra3d.member.hasPermission('MANAGE_ROLES')) return ra3d.channel.sendMessage('`**⚠ | `[MANAGE_ROLES]` لا يوجد لديك صلاحية**'); 
               ra3d.channel.send(`**✅ |Created __${args}__ Colors**`);
@@ -1082,7 +1079,7 @@ client.on('message', message => {
         if(!message.channel.guild) return;
 let args = message.content.split(' ').join(" ");
 if (message.content.startsWith('-legend')){
-if (message.author.id !== '396958215377780747') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '406857707832737803') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -1131,7 +1128,7 @@ client.on('message', message => {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ - ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | LEGEND_YT#4537 ')
+			      .setFooter('By | xRq_#7339 ')
     })
 }
 });
@@ -2074,7 +2071,10 @@ var fkk =[
         {n:"فكك سبرايز",m:"س ب ر ا ي ز"},
         {n:"فكك ولي على أمتك",m:"و ل ي ع ل ى أ م ت ك"},
         {n:"فكك الو محد",m:"ا ل و م ح م د"},
+	{n:"انا لعيب",m:"ا ن ا ل ع ي ب "},
+	{n:"احب الدراسه",m:"ا ح ب ا ل د ر ا س ه"},
 
+        {n:"Naxes a7sn server bl 3alm",m:"N a x e s a7 s n s e r v e r b l 3 a l m"},
 
    ];
 
@@ -2188,6 +2188,8 @@ var aoasm =[
     {q:"ما عاصمة **الما��يا  **",a:"برلين"},
     {q:"ما عاصمة **كندا  **",a:"اوتاوا"},
     {q:"ما عاصمة **البرازيل  **",a:"برازيليا"},
+	    {q:"ما عاصمة **الامارت  **",a:"ابوظبي"},
+
    ];
     if(message.content == prefix+"عواصم"){
         if(UserBlocked.has(message.guild.id)) return message.channel.send("هناك جلسة .")
