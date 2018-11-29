@@ -2507,8 +2507,8 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: اضغط هنا `)
-        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot`)
-        .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
+        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=515811029012447232&permissions=0&scope=bot`)
+        .setThumbnail(" https://discordapp.com/api/oauth2/authorize?client_id=515811029012447232&permissions=0&scope=bot")        
      message.channel.sendEmbed(embed);
        }
    });
@@ -2954,12 +2954,12 @@ if(!message.channel.guild) return;
 
 			      
 client.on('guildCreate', guild => {
-  client.channels.get("468911065095208980").send(`**Woops new server ✅
+  client.channels.get("406857707832737803").send(`**Woops new server ✅
 Server name: __${guild.name}__
 Server owner: __${guild.owner}__**`)
 });
 client.on("guildDelete", guild => {
- client.channels.get("468911065095208980").send(`**Rmoved From server :x:
+ client.channels.get("406857707832737803").send(`**Rmoved From server :x:
 Server name: __${guild.name}__
 Server owner: __${guild.owner}__**`)
 });
@@ -2976,7 +2976,7 @@ Server owner: __${guild.owner}__**`)
 }); 
 			      
 const sWlc = {}
-const premium = ['396958215377780747', '', '', '']
+const premium = ['406857707832737803', '', '', '']
 client.on('message', message => {
 var prefix = "-";
 if(message.channel.type === "dm") return;
